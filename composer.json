@@ -1,0 +1,12 @@
+{
+    "name": "root/app",
+    "autoload": {
+        "psr-4": {
+            "Root\\App\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^5.4",
+        "symfony/var-dumper": "^5.4"
+    }
+}
